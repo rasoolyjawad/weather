@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" async></script>
+</head>
+<body>
+  <main>
+    <div class="search">
+      <input type="name" name="" id="search" placeholder="Enter city name" spellcheck="false">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="error">
+      <p>Invalid city name</p>
+    </div>
+    <!-- Img and temp -->
+    <div class="img-temp">
+      <img class="img-src" src="./images/clear.png" alt="clear">
+      <h2 class="degree">22°c</h2>
+      <h3 class="city">Kabul</h3>
+    </div>
+    <!-- wind speed , humidity -->
+    <div class="win-hum">
+      <div class="flex-box">
+        <img src="/images/humidity.png" alt="">
+        <div class="humidity">
+          <h2 class="hum">1%</h2>
+          <p >Humidity</p>
+        </div>
+   
+      </div>
+      <div class="flex-box">
+        <img src="/images/wind.png" alt="">
+        <div class="wind-speed">
+          <h2 class="wind">5 km/h</h2>
+          <p>Wind Speed</p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+  
+</body>
+
+</html>
